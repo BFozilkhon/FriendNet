@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-const Container = styled.div`
-  background-color: red;
-`;
+const Container = styled.div``;
 
 export { Container };

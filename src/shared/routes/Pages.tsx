@@ -1,7 +1,8 @@
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
+
 import { routes } from './utils/routes';
-import GenericPage from '../components/genericPage/GenericPage';
+import Login from '../../user/login/Login';
 
 export const Pages = () => {
   return (
@@ -16,6 +17,7 @@ export const Pages = () => {
             />
           );
         })}
+        <Route path='/login' element={<Login />} />
       </Routes>
     </Suspense>
   );

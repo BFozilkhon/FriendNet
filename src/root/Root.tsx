@@ -1,13 +1,10 @@
 import Pages from '../shared/routes/Pages';
+import MainContextProvider from '../context';
 
 import '../shared/assets/global.css';
 
 export const Root = () => {
-  return (
-    <div>
-      <Pages />
-    </div>
-  );    
+  return <Pages />;
 };
 
 export default Root;
